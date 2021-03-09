@@ -1,0 +1,22 @@
+- RadioButton allows user to select one option from a set.
+- Can be used to expose all available options (use dropdown menu, if available options need to be collapsed as they save screen space).
+- RadioButton is used inside a RadioGroup, by which only one RadioButton in the RadioGroup can be checked.
+
+- Attributes:
+	1. checkedButton -> used in RadioGroup to check a specific RadioButton.
+	2. checked -> used in a RadioButton to check it.
+	3. enable -> used in a RadioButton to enable it.
+	4. buttonTint -> to change the button color.
+	5. text and other text related attributes
+
+- Listeners:
+	radioGroup.setOnCheckedChangeListener { group , checkedId ->
+		// code
+	}
+
+	radioButton.setOnCheckedChangeListener { buttonView , isChecked ->
+		// code
+	}
+	
+- Dependancy:
+	implementation "com.google.android.material:material:1.4.0-alpha01"

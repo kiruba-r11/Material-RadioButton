@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:checkedButton="@id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:checked="true"
+            android:id="@+id/radioButton1"
+            android:text="Radio Button - 1"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:padding="10dp"
+            android:buttonTint="@color/purple_500"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:text="Radio Button - 2"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:padding="10dp"
+            android:buttonTint="@color/purple_500"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:text="Radio Button - 3"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:padding="10dp"
+            android:buttonTint="@color/purple_500"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:text="Radio Button - 4"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:padding="10dp"
+            android:buttonTint="@color/purple_500"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:text="Radio Button - 5"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:padding="10dp"
+            android:buttonTint="@color/purple_500"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RadioGroup>
+
+</LinearLayout>
