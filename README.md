@@ -1,5 +1,5 @@
 # Material-RadioButton
-To work with RadioButton from Material Design Component
+To work with RadioButton and RadioGroup from Material Design Component
 
 ### Screenshots of the App
 <table>
